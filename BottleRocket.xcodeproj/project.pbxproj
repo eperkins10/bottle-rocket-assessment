@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B21D17D276BA21A008E37F3 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B21D17C276BA21A008E37F3 /* MapViewController.swift */; };
 		0B4ACF95276A5A7C0005EE55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACF94276A5A7C0005EE55 /* AppDelegate.swift */; };
 		0B4ACF97276A5A7C0005EE55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACF96276A5A7C0005EE55 /* SceneDelegate.swift */; };
-		0B4ACF99276A5A7C0005EE55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACF98276A5A7C0005EE55 /* ViewController.swift */; };
 		0B4ACF9C276A5A7C0005EE55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4ACF9A276A5A7C0005EE55 /* Main.storyboard */; };
-		0B4ACF9F276A5A7C0005EE55 /* BottleRocket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACF9D276A5A7C0005EE55 /* BottleRocket.xcdatamodeld */; };
 		0B4ACFA1276A5A7E0005EE55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B4ACFA0276A5A7E0005EE55 /* Assets.xcassets */; };
 		0B4ACFA4276A5A7E0005EE55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B4ACFA2276A5A7E0005EE55 /* LaunchScreen.storyboard */; };
-		0B4ACFAF276A5A7E0005EE55 /* BottleRocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFAE276A5A7E0005EE55 /* BottleRocketTests.swift */; };
-		0B4ACFB9276A5A7E0005EE55 /* BottleRocketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFB8276A5A7E0005EE55 /* BottleRocketUITests.swift */; };
-		0B4ACFBB276A5A7E0005EE55 /* BottleRocketUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFBA276A5A7E0005EE55 /* BottleRocketUITestsLaunchTests.swift */; };
+		0B4ACFCA276A5BC50005EE55 /* Lunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFC9276A5BC50005EE55 /* Lunch.swift */; };
+		0B4ACFD0276A5E220005EE55 /* LunchCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFCF276A5E220005EE55 /* LunchCollectionViewController.swift */; };
+		0B4ACFD2276A5E500005EE55 /* WebsiteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFD1276A5E500005EE55 /* WebsiteViewController.swift */; };
+		0B4ACFD4276A5E640005EE55 /* LunchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFD3276A5E640005EE55 /* LunchController.swift */; };
+		0B4ACFD6276A63CB0005EE55 /* LunchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFD5276A63CB0005EE55 /* LunchDetailViewController.swift */; };
+		0B4ACFD9276A64E30005EE55 /* LunchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFD8276A64E30005EE55 /* LunchError.swift */; };
+		0B4ACFDC276A6B930005EE55 /* RestuarantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4ACFDB276A6B930005EE55 /* RestuarantCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,20 +40,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B21D17C276BA21A008E37F3 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0B4ACF91276A5A7C0005EE55 /* BottleRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BottleRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B4ACF94276A5A7C0005EE55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B4ACF96276A5A7C0005EE55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0B4ACF98276A5A7C0005EE55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0B4ACF9B276A5A7C0005EE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0B4ACF9E276A5A7C0005EE55 /* BottleRocket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BottleRocket.xcdatamodel; sourceTree = "<group>"; };
 		0B4ACFA0276A5A7E0005EE55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B4ACFA3276A5A7E0005EE55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B4ACFA5276A5A7E0005EE55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B4ACFAA276A5A7E0005EE55 /* BottleRocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottleRocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4ACFAE276A5A7E0005EE55 /* BottleRocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleRocketTests.swift; sourceTree = "<group>"; };
 		0B4ACFB4276A5A7E0005EE55 /* BottleRocketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BottleRocketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B4ACFB8276A5A7E0005EE55 /* BottleRocketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleRocketUITests.swift; sourceTree = "<group>"; };
-		0B4ACFBA276A5A7E0005EE55 /* BottleRocketUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleRocketUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B4ACFC9276A5BC50005EE55 /* Lunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunch.swift; sourceTree = "<group>"; };
+		0B4ACFCF276A5E220005EE55 /* LunchCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchCollectionViewController.swift; sourceTree = "<group>"; };
+		0B4ACFD1276A5E500005EE55 /* WebsiteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteViewController.swift; sourceTree = "<group>"; };
+		0B4ACFD3276A5E640005EE55 /* LunchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchController.swift; sourceTree = "<group>"; };
+		0B4ACFD5276A63CB0005EE55 /* LunchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchDetailViewController.swift; sourceTree = "<group>"; };
+		0B4ACFD8276A64E30005EE55 /* LunchError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchError.swift; sourceTree = "<group>"; };
+		0B4ACFDB276A6B930005EE55 /* RestuarantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestuarantCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +88,6 @@
 			isa = PBXGroup;
 			children = (
 				0B4ACF93276A5A7C0005EE55 /* BottleRocket */,
-				0B4ACFAD276A5A7E0005EE55 /* BottleRocketTests */,
-				0B4ACFB7276A5A7E0005EE55 /* BottleRocketUITests */,
 				0B4ACF92276A5A7C0005EE55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,33 +105,86 @@
 		0B4ACF93276A5A7C0005EE55 /* BottleRocket */ = {
 			isa = PBXGroup;
 			children = (
-				0B4ACF94276A5A7C0005EE55 /* AppDelegate.swift */,
-				0B4ACF96276A5A7C0005EE55 /* SceneDelegate.swift */,
-				0B4ACF98276A5A7C0005EE55 /* ViewController.swift */,
-				0B4ACF9A276A5A7C0005EE55 /* Main.storyboard */,
-				0B4ACFA0276A5A7E0005EE55 /* Assets.xcassets */,
-				0B4ACFA2276A5A7E0005EE55 /* LaunchScreen.storyboard */,
-				0B4ACFA5276A5A7E0005EE55 /* Info.plist */,
-				0B4ACF9D276A5A7C0005EE55 /* BottleRocket.xcdatamodeld */,
+				0B4ACFCB276A5BCA0005EE55 /* Model */,
+				0B4ACFCC276A5D560005EE55 /* Controllers */,
+				0B4ACFDA276A6B6C0005EE55 /* CustomViews */,
+				0B4ACFC8276A5AAC0005EE55 /* Views */,
+				0B4ACFD7276A64D40005EE55 /* Helpers + Extensions */,
+				0B4ACFC7276A5A9F0005EE55 /* Resources */,
 			);
 			path = BottleRocket;
 			sourceTree = "<group>";
 		};
-		0B4ACFAD276A5A7E0005EE55 /* BottleRocketTests */ = {
+		0B4ACFC7276A5A9F0005EE55 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0B4ACFAE276A5A7E0005EE55 /* BottleRocketTests.swift */,
+				0B4ACF94276A5A7C0005EE55 /* AppDelegate.swift */,
+				0B4ACF96276A5A7C0005EE55 /* SceneDelegate.swift */,
+				0B4ACFA0276A5A7E0005EE55 /* Assets.xcassets */,
+				0B4ACFA5276A5A7E0005EE55 /* Info.plist */,
 			);
-			path = BottleRocketTests;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		0B4ACFB7276A5A7E0005EE55 /* BottleRocketUITests */ = {
+		0B4ACFC8276A5AAC0005EE55 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0B4ACFB8276A5A7E0005EE55 /* BottleRocketUITests.swift */,
-				0B4ACFBA276A5A7E0005EE55 /* BottleRocketUITestsLaunchTests.swift */,
+				0B4ACF9A276A5A7C0005EE55 /* Main.storyboard */,
+				0B4ACFA2276A5A7E0005EE55 /* LaunchScreen.storyboard */,
 			);
-			path = BottleRocketUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0B4ACFCB276A5BCA0005EE55 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ACFC9276A5BC50005EE55 /* Lunch.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0B4ACFCC276A5D560005EE55 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ACFCE276A5D600005EE55 /* ViewControllers */,
+				0B4ACFCD276A5D5A0005EE55 /* ModelControllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0B4ACFCD276A5D5A0005EE55 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ACFD3276A5E640005EE55 /* LunchController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		0B4ACFCE276A5D600005EE55 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ACFCF276A5E220005EE55 /* LunchCollectionViewController.swift */,
+				0B4ACFD5276A63CB0005EE55 /* LunchDetailViewController.swift */,
+				0B4ACFD1276A5E500005EE55 /* WebsiteViewController.swift */,
+				0B21D17C276BA21A008E37F3 /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0B4ACFD7276A64D40005EE55 /* Helpers + Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ACFD8276A64E30005EE55 /* LunchError.swift */,
+			);
+			path = "Helpers + Extensions";
+			sourceTree = "<group>";
+		};
+		0B4ACFDA276A6B6C0005EE55 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				0B4ACFDB276A6B930005EE55 /* RestuarantCollectionViewCell.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,10 +318,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4ACF99276A5A7C0005EE55 /* ViewController.swift in Sources */,
+				0B4ACFD2276A5E500005EE55 /* WebsiteViewController.swift in Sources */,
 				0B4ACF95276A5A7C0005EE55 /* AppDelegate.swift in Sources */,
+				0B4ACFD4276A5E640005EE55 /* LunchController.swift in Sources */,
+				0B21D17D276BA21A008E37F3 /* MapViewController.swift in Sources */,
+				0B4ACFCA276A5BC50005EE55 /* Lunch.swift in Sources */,
+				0B4ACFD6276A63CB0005EE55 /* LunchDetailViewController.swift in Sources */,
 				0B4ACF97276A5A7C0005EE55 /* SceneDelegate.swift in Sources */,
-				0B4ACF9F276A5A7C0005EE55 /* BottleRocket.xcdatamodeld in Sources */,
+				0B4ACFD0276A5E220005EE55 /* LunchCollectionViewController.swift in Sources */,
+				0B4ACFD9276A64E30005EE55 /* LunchError.swift in Sources */,
+				0B4ACFDC276A6B930005EE55 /* RestuarantCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +335,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4ACFAF276A5A7E0005EE55 /* BottleRocketTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +342,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4ACFBB276A5A7E0005EE55 /* BottleRocketUITestsLaunchTests.swift in Sources */,
-				0B4ACFB9276A5A7E0005EE55 /* BottleRocketUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,14 +501,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G85A29FYUQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BottleRocket/Info.plist;
+				INFOPLIST_FILE = BottleRocket/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,14 +531,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G85A29FYUQ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BottleRocket/Info.plist;
+				INFOPLIST_FILE = BottleRocket/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,19 +672,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0B4ACF9D276A5A7C0005EE55 /* BottleRocket.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0B4ACF9E276A5A7C0005EE55 /* BottleRocket.xcdatamodel */,
-			);
-			currentVersion = 0B4ACF9E276A5A7C0005EE55 /* BottleRocket.xcdatamodel */;
-			path = BottleRocket.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0B4ACF89276A5A7C0005EE55 /* Project object */;
 }
