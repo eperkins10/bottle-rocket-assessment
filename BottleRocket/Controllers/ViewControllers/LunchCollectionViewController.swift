@@ -79,6 +79,14 @@ class LunchCollectionViewController: UICollectionViewController {
             return CGSize(width: width, height: 240)
         }
     }
+    
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        guard let flowLayout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout else {
+            return
+        }
+        flowLayout.invalidateLayout()
+    }
 }
 
 extension LunchCollectionViewController: UICollectionViewDelegateFlowLayout { }
