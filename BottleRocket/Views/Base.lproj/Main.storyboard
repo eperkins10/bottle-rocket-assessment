@@ -137,8 +137,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NVA-Xg-uZx">
-                                <rect key="frame" x="351" y="20" width="43" height="32"/>
+                                <rect key="frame" x="351" y="20" width="43" height="43"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NVA-Xg-uZx" secondAttribute="height" multiplier="1:1" id="ksb-LV-cb1"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="ic_close">
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
@@ -168,6 +171,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="dismissMapButton" destination="NVA-Xg-uZx" id="whl-Ti-tor"/>
                         <outlet property="mapView" destination="qWn-2m-eo7" id="plY-Rm-OE0"/>
                     </connections>
                 </viewController>

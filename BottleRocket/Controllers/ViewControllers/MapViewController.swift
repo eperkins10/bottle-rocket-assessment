@@ -12,13 +12,14 @@ import CoreLocation
 class MapViewController: UIViewController {
     
     var restaurants: [Restaurant]?
-        
+    
+    @IBOutlet weak var dismissMapButton: UIButton!
     @IBOutlet weak var mapView: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         createAnnotations()
-        
+        configureDismissButton()
     }
     
     func createAnnotations() {
@@ -43,6 +44,10 @@ class MapViewController: UIViewController {
         
         mapView.showAnnotations(annotations, animated: true)
         mapView.setRegion(MKCoordinateRegion(center: currentCoordinate, latitudinalMeters: 8000, longitudinalMeters: 8000), animated: true)
+    }
+    
+    func configureDismissButton() {
+        dismissMapButton.layer.cornerRadius = 0.5 * dismissMapButton.bounds.size.width
     }
     
     @IBAction func exitButtonTapped(_ sender: Any) {
