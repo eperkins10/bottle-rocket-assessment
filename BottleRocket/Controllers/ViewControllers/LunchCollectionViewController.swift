@@ -20,7 +20,9 @@ class LunchCollectionViewController: UICollectionViewController {
     }
     
     func fetchRestaurants() {
-        LunchController.fetchRestaurants { result in
+        LunchController.fetchRestaurants { [weak self] result in
+            guard let self = self else { return }
+            
             DispatchQueue.main.async {
                 switch result {
                     
@@ -33,12 +35,7 @@ class LunchCollectionViewController: UICollectionViewController {
             }
         }
     }
-    
-    func configureNavBar() {
-        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
-        navigationController?.navigationBar.titleTextAttributes = textAttributes
-    }
-    
+
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetailVC" {
