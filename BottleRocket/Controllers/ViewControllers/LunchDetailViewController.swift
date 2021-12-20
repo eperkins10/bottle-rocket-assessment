@@ -42,7 +42,11 @@ class LunchDetailViewController: UIViewController {
             self.restaurantCategoryLabel.text = restaurant.category
             self.restaurantStreetName.text = restaurant.location.address
             self.restaurantAddressLabel.text = restaurant.location.formattedAddress[1]
-            self.restaurantPhoneLabel.text = restaurant.contact?.formattedPhone
+            if let phone = restaurant.contact?.formattedPhone {
+                self.restaurantPhoneLabel.text = phone
+            } else {
+                self.restaurantPhoneLabel.text = "No phone number available"
+            }
             if let twitter = restaurant.contact?.twitter {
                 self.restaurantTwitterLabel.text = "@\(twitter)"
             } else {

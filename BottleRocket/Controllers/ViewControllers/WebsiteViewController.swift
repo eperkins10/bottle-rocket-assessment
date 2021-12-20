@@ -9,7 +9,6 @@
 import UIKit
 import WebKit
 
-
 class WebsiteViewController: UIViewController, WKUIDelegate, WKNavigationDelegate {
     
     var webView: WKWebView!

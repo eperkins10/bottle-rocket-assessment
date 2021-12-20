@@ -34,6 +34,11 @@ class LunchCollectionViewController: UICollectionViewController {
         }
     }
     
+    func configureNavBar() {
+        let textAttributes = [NSAttributedString.Key.foregroundColor:UIColor.white]
+        navigationController?.navigationBar.titleTextAttributes = textAttributes
+    }
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toDetailVC" {
